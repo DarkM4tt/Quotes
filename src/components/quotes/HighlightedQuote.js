@@ -1,4 +1,4 @@
-import classes from './HighlightedQuote.module.css';
+import classes from './HighlightedQuote.module.css'
 
 const HighlightedQuote = (props) => {
   return (
@@ -6,7 +6,7 @@ const HighlightedQuote = (props) => {
       <p>{props.text}</p>
       <figcaption>{props.author}</figcaption>
     </figure>
-  );
-};
+  )
+}
 
-export default HighlightedQuote;
+export default HighlightedQuote

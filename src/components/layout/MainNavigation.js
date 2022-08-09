@@ -1,5 +1,6 @@
-import classes from './MainNavigation.module.css'
 import { NavLink } from 'react-router-dom'
+
+import classes from './MainNavigation.module.css'
 
 const MainNavigation = () => {
   return (
@@ -14,7 +15,7 @@ const MainNavigation = () => {
           </li>
           <li>
             <NavLink to="/new-quote" activeClassName={classes.active}>
-              Add a quote
+              Add a Quote
             </NavLink>
           </li>
         </ul>

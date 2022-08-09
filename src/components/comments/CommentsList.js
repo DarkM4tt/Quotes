@@ -1,5 +1,5 @@
-import CommentItem from './CommentItem';
-import classes from './CommentsList.module.css';
+import CommentItem from './CommentItem'
+import classes from './CommentsList.module.css'
 
 const CommentsList = (props) => {
   return (
@@ -8,7 +8,7 @@ const CommentsList = (props) => {
         <CommentItem key={comment.id} text={comment.text} />
       ))}
     </ul>
-  );
-};
+  )
+}
 
-export default CommentsList;
+export default CommentsList
